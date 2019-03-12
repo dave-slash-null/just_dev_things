@@ -1,0 +1,25 @@
+{
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.tabSize": 2,
+    "emmet.includeLanguages": {"erb": "html"},
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": false,
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.vagrant": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "ruby.intellisense": "rubyLocate",
+    "ruby.lint": {
+        "ruby": true
+    },
+    "ruby.lintDebounceTime": 500,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "window.zoomLevel": 1,
+}
