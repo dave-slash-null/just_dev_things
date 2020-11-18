@@ -1,7 +1,9 @@
 {
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.tabSize": 2,
-    "emmet.includeLanguages": {"erb": "html"},
+    "emmet.includeLanguages": {
+        "erb": "html"
+    },
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "extensions.ignoreRecommendations": false,
@@ -15,11 +17,23 @@
         "**/.vagrant": true
     },
     "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "ruby.useLanguageServer": true,
     "ruby.intellisense": "rubyLocate",
     "ruby.lint": {
-        "ruby": true
+        "rubocop": {
+            "command": "path/to/rubocop"
+        }
     },
-    "ruby.lintDebounceTime": 500,
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "window.zoomLevel": 1,
+    "html.autoClosingTags": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.occurrencesHighlight": false,
+    "window.zoomLevel": 0,
+    "editor.renderWhitespace": "none",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+    },
 }
