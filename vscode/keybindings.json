@@ -39,48 +39,38 @@
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+k ctrl+x",
+    "key": "cmd+k cmd+x",
     "command": "workbench.action.terminal.runSelectedText",
     "when": "editorHasSelection"
   },
   {
-    "key": "ctrl+k ctrl+u",
+    "key": "cmd+k cmd+u",
     "command": "editor.action.transformToUppercase"
   },
   {
-    "key": "ctrl+k ctrl+u",
+    "key": "cmd+k cmd+u",
     "command": "-editor.action.removeCommentLine",
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+k ctrl+l",
+    "key": "cmd+k cmd+l",
     "command": "editor.action.transformToLowercase"
   },
   {
-    "key": "ctrl+k ctrl+n",
+    "key": "cmd+k cmd+n",
     "command": "workbench.action.editor.changeEOL",
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+l",
-    "command": "expandLineSelection",
-    "when": "textInputFocus"
-  },
-  {
-    "key": "ctrl+i",
-    "command": "-expandLineSelection",
-    "when": "textInputFocus"
-  },
-  {
-    "key": "ctrl+alt+r",
-    "command": "workbench.action.openRecent"
-  },
-  {
-    "key": "ctrl+r",
-    "command": "-workbench.action.openRecent"
-  },
-  {
-    "key": "ctrl+r",
+    "key": "cmd+r",
     "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "ctrl+,",
+    "command": "workbench.action.openSettingsJson"
+  },
+  {
+    "key": "ctrl+k ctrl+s",
+    "command": "workbench.action.openGlobalKeybindingsFile"
   }
 ]
